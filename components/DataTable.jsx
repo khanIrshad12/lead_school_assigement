@@ -1,5 +1,3 @@
-import React from "react";
-
 export const DataTable = ({ data }) => {
   const state = data?.places;
 
@@ -19,7 +17,7 @@ export const DataTable = ({ data }) => {
             <p className="mx-auto max-w-[200px] text-white font-semibold font-serif">
               There Is No Data Yet{" "}
             </p>
-          ) : (
+            ) : (
             <tbody>
               <tr className="border-t border-blue-400 text-white">
                 <td className="md:px-4 md:py-2  px-2 py-1">

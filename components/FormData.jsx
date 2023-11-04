@@ -258,7 +258,6 @@ const FormData = () => {
 
     // Add more countries as needed
   };
-
   const countryArray = Object.entries(countryCodes).map(
     ([key, value]) => `${key} - ${value}`
   );

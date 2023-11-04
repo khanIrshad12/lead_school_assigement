@@ -1,7 +1,6 @@
 'use client'
 import FormData  from "@/components/FormData";
 import { useEffect,useState } from "react"
-
  const Provider=()=>{
     const [isMounted, setIsMounted] = useState(false)
     useEffect(()=>{
